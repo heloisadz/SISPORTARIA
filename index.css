@@ -1,0 +1,138 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #008516;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.tit{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.bot{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 30px;
+}
+.deslog{
+    margin-top: 10px;
+    background-color: #f0fef2;
+    height: 20px;
+    width: 90px;
+    padding: 5px;
+    border-radius: 4px;
+}
+a.deslog{
+    color:#008516;
+    text-decoration: none;
+}
+
+
+
+main{
+    flex-direction: row;
+    height: 800px;
+    width: 100%;
+    opacity: 100%;
+    background-image: url('if.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a div */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+nav{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(99, 189, 101);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+nav a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a{
+    font-size: 15px;
+    background-color: #023c0b;
+    width: 100%;
+}
+.vazio{
+    height: 100%;
+    width: 80%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 212, 153);
+    border-radius: 5px;
+    padding: 20px;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    margin-bottom: 8px;
+
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #000c01;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.botaovoltar{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #023c0b;
+    border-radius: 8px;
+
+}
+.botaovoltar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+    
+}
